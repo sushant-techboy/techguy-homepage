@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #383838;
+	background-color: black;
 	font-family: alef, arial;
 }
 
@@ -9,6 +9,7 @@ body{
 header h1{
 	font-family: alef, arial;
 	color: white;
+	background-color: #050505;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -21,7 +22,7 @@ header span{
 /* Section */
 section {
 	height: 365px;
-	background: #383838 url('img/bg.jpg') no-repeat 0 -365px;
+	background: #202020 url('img/bg.jpg') no-repeat 0 -365px;
 }
 
 section h1{
@@ -42,4 +43,30 @@ section p{
 	text-align: center;
 	font-size: 30px;
 	color: white;
+}
+
+/* Footer */
+footer{
+	background-color: #050505;
+}
+
+footer h2{
+	color: #7a7a7a;
+	padding-left: 30px;
+	text-align: center;
+}
+
+footer h2 span{
+	color: #1bd35b;
+}
+
+footer p{
+	color: #7a7a7a;
+	margin-top: -10px;
+	font-size: 17px;
+	text-align: center;
+}
+
+footer p span{
+	color: #1bd35b;
 }
