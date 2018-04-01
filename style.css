@@ -1,14 +1,13 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: black;
+	background-color: #383838;
 	font-family: alef, arial;
 }
 
 /* Header */
 header h1{
 	font-family: alef, arial;
-	background-color: #383838;
 	color: white;
 	margin: 0;
 	padding: 0;
@@ -30,9 +29,17 @@ section h1{
 	padding-top: 70px;
 	text-align: center;
 	color: white;
-	font-size: 55px;
+	font-size: 60px;
 }
 
 section h1 span{
 	color: #1bd35b;
+}
+
+section p{
+	margin-top: 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
 }
