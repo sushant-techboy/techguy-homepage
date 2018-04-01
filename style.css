@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: black;
+	font-family: alef, arial;
 }
 
 /* Header */
@@ -19,7 +20,19 @@ header span{
 }
 
 /* Section */
-section{
-	height: 400px;
-	background: #383838 url('img/bg.jpg') no-repeat 0 -400px;
+section {
+	height: 365px;
+	background: #383838 url('img/bg.jpg') no-repeat 0 -365px;
+}
+
+section h1{
+	margin: 0;
+	padding-top: 70px;
+	text-align: center;
+	color: white;
+	font-size: 55px;
+}
+
+section h1 span{
+	color: #1bd35b;
 }
