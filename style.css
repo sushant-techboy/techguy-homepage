@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+/* Header */
+header h1{
+	font-family: alef, arial;
+	background-color: #383838;
+	color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+header span{
+	color: #1bd35b;
+}
+
+/* Section */
+section{
+	height: 400px;
+	background: #383838 url('img/bg.jpg') no-repeat 0 -400px;
+}
