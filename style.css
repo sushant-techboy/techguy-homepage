@@ -20,12 +20,12 @@ header span{
 }
 
 /* Section */
-section {
+section#one{
 	height: 365px;
 	background: #202020 url('img/bg.jpg') no-repeat 0 -365px;
 }
 
-section h1{
+section#one h1{
 	margin: 0;
 	padding-top: 70px;
 	text-align: center;
@@ -33,11 +33,11 @@ section h1{
 	font-size: 60px;
 }
 
-section h1 span{
+section#one h1 span{
 	color: #1bd35b;
 }
 
-section p{
+section#one p{
 	margin-top: 0;
 	padding: 5px;
 	text-align: center;
@@ -48,6 +48,8 @@ section p{
 /* Footer */
 footer{
 	background-color: #181c22;
+	position: relative;
+	bottom: -80px;
 }
 
 footer h2{
