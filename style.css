@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: black;
+	background-color: #090d13;
 	font-family: alef, arial;
 }
 
@@ -9,7 +9,7 @@ body{
 header h1{
 	font-family: alef, arial;
 	color: white;
-	background-color: #050505;
+	background-color: #16141e;
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -47,11 +47,11 @@ section p{
 
 /* Footer */
 footer{
-	background-color: #050505;
+	background-color: #181c22;
 }
 
 footer h2{
-	color: #7a7a7a;
+	color: #737476;
 	padding-left: 30px;
 	text-align: center;
 }
@@ -61,7 +61,7 @@ footer h2 span{
 }
 
 footer p{
-	color: #7a7a7a;
+	color: #737476;
 	margin-top: -10px;
 	font-size: 17px;
 	text-align: center;
