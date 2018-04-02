@@ -6,6 +6,7 @@ body{
 }
 
 /* Header */
+
 header h1{
 	font-family: alef, arial;
 	color: white;
@@ -19,7 +20,8 @@ header span{
 	color: #1bd35b;
 }
 
-/* Section */
+/* Section One */
+
 section#one{
 	height: 365px;
 	background: #202020 url('img/bg.jpg') no-repeat 0 -365px;
@@ -45,7 +47,16 @@ section#one p{
 	color: white;
 }
 
+/* Section Two */
+
+section h1{
+	margin-top: 30px;
+	text-align: center;
+	color: #dfdedf;
+}
+
 /* Footer */
+
 footer{
 	background-color: #181c22;
 	position: relative;
@@ -71,4 +82,16 @@ footer p{
 
 footer p span{
 	color: #1bd35b;
+}
+
+#glow img{
+	padding-bottom: 15px;
+}
+
+#glow img:hover{
+    opacity: .5;
+}
+
+#glow{
+	text-align: center;
 }
