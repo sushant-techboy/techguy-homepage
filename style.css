@@ -7,16 +7,23 @@ body{
 
 /* Header */
 
+header{
+	background-color: #16141e;
+}
+
+header img{
+	height: 70px;
+}
+
 header h1{
 	font-family: alef, arial;
 	color: white;
-	background-color: #16141e;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
-header span{
+header span .att{
 	color: #1bd35b;
 }
 
