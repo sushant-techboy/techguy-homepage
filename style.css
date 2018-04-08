@@ -7,10 +7,6 @@ body{
 
 /* Header */
 
-header{
-	background-color: #16141e;
-}
-
 header img{
 	height: 70px;
 }
@@ -21,9 +17,11 @@ header h1{
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	background-color: #16141e;
 }
 
-header span .att{
+header span{
+	padding-left: 7px;
 	color: #1bd35b;
 }
 
